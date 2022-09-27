@@ -3,7 +3,7 @@ from pyrogram import *
 from pyrogram.types import *
 import requests
 from env import CHANNEL,BOT_TOKEN
-from Buttons.main import main
+from Buttons.main_b import main
 
 @Client.on_message(filters.command('start'))
 async def strx(bot:Client,message:Message):
