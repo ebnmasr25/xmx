@@ -8,7 +8,7 @@ API_HASH = os.getenv("API_HASH", "").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 CHANNEL = os.getenv("CHANNEL")
-BOT_USER = es.getenv("BOT_USER")
+BOT_USER = os.getenv("BOT_USER")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
